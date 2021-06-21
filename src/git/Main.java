@@ -5,6 +5,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello");
         System.out.println(minus(1));
+        System.out.println(add(4));
+        System.out.println(multiplication(4, 6));
 
         int count = 1;
 
@@ -24,5 +26,13 @@ public class Main {
 
     public static int minus(int a) {
         return a--;
+    }
+
+    public static int add(int b) {
+        return b++;
+    }
+
+    public static int multiplication(int c, int d) {
+        return c + d;
     }
 }
